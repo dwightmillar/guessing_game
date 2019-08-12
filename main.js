@@ -18,7 +18,6 @@ function getInputSendResponse() {
     document.getElementById('response_div').innerText = 'Too high!';
   }
   if (the_guess == the_number) {
-    console.log('click');
     document.getElementById('response_div').innerText = 'You guessed it!';
   }
 }
